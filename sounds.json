@@ -1,18 +1,62 @@
 [
     {
         "sound": "istmiregal",
-        "text": "Ist mir egal"
+        "text": "Ist mir egal",
+        "color": "red"
     },
     {
         "sound": "mahlzeit",
-        "text": "Mahlzeit!"
+        "text": "Mahlzeit!",
+        "color": "green"
     },
     {
         "sound": "gorgonnzola",
-        "text": "Der Gorgonnzola"
+        "text": "Der Gorgonnzola",
+        "color": "blue"
     },
     {
         "sound": "fettarme",
-        "text": "Fettarme"
+        "text": "Fettarme",
+        "color": "yellow"
+    },
+    {
+        "sound": "ho",
+        "text": "Ho!",
+        "color": "red"
+    },
+    {
+        "sound": "werruftdaan",
+        "text": "Wer ruf da an?",
+        "color": "green"
+    },
+    {
+        "sound": "backkammembert",
+        "text": "Der Backkammembert",
+        "color": "blue"
+    },
+    {
+        "sound": "ernaehrung",
+        "text": "Ich achte auf meine Ernährung",
+        "color": "yellow"
+    },
+    {
+        "sound": "ganzehrlich",
+        "text": "Ganz ehrlich!",
+        "color": "red"
+    },
+    {
+        "sound": "emotionaldamage",
+        "text": "Emotional Damage",
+        "color": "green"
+    },
+    {
+        "sound": "10minuten",
+        "text": "10 Minuten!",
+        "color": "blue"
+    },
+    {
+        "sound": "weildasjaklarist",
+        "text": "Weil das ja klar ist...",
+        "color": "yellow"
     }
 ]

@@ -2,7 +2,7 @@
 
 ## How it looks
 
-![](/Screenshot from 2022-03-09 14-38-46.png)
+![Screenshot](/Screenshot from 2022-03-09 14-38-46.png)
 
 ## How to configure
 Place a mp3 file into sounds/ and add it to sounds.json.

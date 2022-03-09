@@ -16,9 +16,13 @@
 
     <script>
 
-        function playSound(sound) {
-            new Audio("sounds/" + sound + ".mp3").play();
-            console.log(sound)
+        var audio = new Audio();
+
+        async function playSound(sound) {
+                await audio.pause();
+                audio = new Audio("sounds/" + sound + ".mp3")
+                audio.play();
+            
         }
 
         fetch("sounds.json").then(result => result.json().then(buttons => {

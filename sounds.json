@@ -1,6 +1,10 @@
 [
     {
         "sound": "istmiregal",
-        "text": "istmiregal"
+        "text": "Ist mir egal"
+    },
+    {
+        "sound": "mahlzeit",
+        "text": "Mahlzeit!"
     }
 ]

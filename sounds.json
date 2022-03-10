@@ -58,5 +58,55 @@
         "sound": "weildasjaklarist",
         "text": "Weil das ja klar ist...",
         "color": "yellow"
+    },
+    {
+        "sound": "ichschwitze",
+        "text": "Ich schwitze...",
+        "color": "green"
+    },
+    {
+        "sound": "goennungbeihitze",
+        "text": "Gönnung!",
+        "color": "blue"
+    },
+    {
+        "sound": "prost",
+        "text": "Prost!",
+        "color": "red"
+    },
+    {
+        "sound": "ohh",
+        "text": "Ohh...",
+        "color": "yellow"
+    },
+    {
+        "sound": "socremig",
+        "text": "XX so cremig!",
+        "color": "blue"
+    },
+    {
+        "sound": "ahmehrere",
+        "text": "Da sind ja mehrere!",
+        "color": "green"
+    },
+    {
+        "sound": "isnetmehrnormal",
+        "text": "Is net mehr normal!",
+        "color": "red"
+    },
+    {
+        "sound": "nichtmehranrufen",
+        "text": "Hört mal auf mich anzurufen!",
+        "color": "yellow"
+    },
+    {
+        "sound": "paulgehweg",
+        "text": "Geh weg!",
+        "color": "green"
+    },
+    {
+        "sound": "perversgeil",
+        "text": "Pervers geil!",
+        "color": "blue"
     }
 ]

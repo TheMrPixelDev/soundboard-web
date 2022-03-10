@@ -21,13 +21,28 @@ button {
     color: black;
     font-weight: bold;
     border: 0;
-    width: 100px;
+    width: 6rem;
     word-wrap: break-word;
-    height: 100px;
+    height: 6rem;
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 5px 5px 5px 0 #202225;
     margin: 1rem;
+}
+
+@media (max-width: 500px) {
+    body {
+        margin: 0;
+    }
+    main {
+        width: 100%;
+        justify-content: center;
+    }
+    button {
+        width: 5.5rem;
+        height: 5.5rem;
+
+    }
 }
 
 button:active {

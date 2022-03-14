@@ -7,35 +7,8 @@
     <title>Soundboard</title>
     <meta name="author" content="Fabian Dietrich">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <style>
-
-        
-
-    </style>
-
-    <script>
-
-        var audio = new Audio();
-
-        async function playSound(sound) {
-                await audio.pause();
-                audio = new Audio("sounds/" + sound + ".mp3")
-                audio.play();
-            
-        }
-
-        fetch("sounds.json").then(result => result.json().then(buttons => {
-            for (let b of buttons) {
-                let button = document.createElement("button");
-                button.innerText = b.text;
-                button.classList = b.color;
-                button.onclick = () => playSound(b.sound);
-                document.getElementsByTagName("main")[0].appendChild(button);
-            }
-        }));
-
-    </script>
+<link rel="stylesheet" href="style.css">
+<script src="/app.js"></script>
 
 </head>
 

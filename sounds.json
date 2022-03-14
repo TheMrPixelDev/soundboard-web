@@ -2,111 +2,169 @@
     {
         "sound": "istmiregal",
         "text": "Ist mir egal",
+        "category": "fun",
         "color": "red"
     },
     {
         "sound": "mahlzeit",
         "text": "Mahlzeit!",
+        "category": "fun",
         "color": "green"
     },
     {
         "sound": "gorgonnzola",
         "text": "Der Gorgonnzola",
+        "category": "fun",
         "color": "blue"
     },
     {
         "sound": "fettarme",
         "text": "Fettarme",
+        "category": "fun",
         "color": "yellow"
     },
     {
         "sound": "ho",
         "text": "Ho!",
+        "category": "fun",
         "color": "red"
     },
     {
         "sound": "werruftdaan",
         "text": "Wer ruf da an?",
+        "category": "fun",
         "color": "green"
     },
     {
         "sound": "backkammembert",
         "text": "Der Backkammembert",
+        "category": "fun",
         "color": "blue"
     },
     {
         "sound": "ernaehrung",
         "text": "Ich achte auf meine Ernährung",
+        "category": "fun",
         "color": "yellow"
     },
     {
         "sound": "ganzehrlich",
         "text": "Ganz ehrlich!",
+        "category": "fun",
         "color": "red"
     },
     {
         "sound": "emotionaldamage",
         "text": "Emotional Damage",
+        "category": "fun",
         "color": "green"
     },
     {
         "sound": "10minuten",
         "text": "10 Minuten!",
+        "category": "fun",
         "color": "blue"
     },
     {
         "sound": "weildasjaklarist",
         "text": "Weil das ja klar ist...",
+        "category": "fun",
         "color": "yellow"
     },
     {
         "sound": "ichschwitze",
         "text": "Ich schwitze...",
+        "category": "fun",
         "color": "green"
     },
     {
         "sound": "goennungbeihitze",
         "text": "Gönnung!",
+        "category": "fun",
         "color": "blue"
     },
     {
         "sound": "prost",
         "text": "Prost!",
+        "category": "fun",
         "color": "red"
     },
     {
         "sound": "ohh",
         "text": "Ohh...",
+        "category": "fun",
         "color": "yellow"
     },
     {
         "sound": "socremig",
         "text": "XX so cremig!",
+        "category": "fun",
         "color": "blue"
     },
     {
         "sound": "ahmehrere",
         "text": "Da sind ja mehrere!",
+        "category": "fun",
         "color": "green"
     },
     {
         "sound": "isnetmehrnormal",
         "text": "Is net mehr normal!",
+        "category": "fun",
         "color": "red"
     },
     {
         "sound": "nichtmehranrufen",
         "text": "Hört mal auf mich anzurufen!",
+        "category": "fun",
         "color": "yellow"
     },
     {
         "sound": "paulgehweg",
         "text": "Geh weg!",
+        "category": "fun",
         "color": "green"
     },
     {
         "sound": "perversgeil",
         "text": "Pervers geil!",
+        "category": "fun",
         "color": "blue"
+    },
+    {
+        "sound": "wasistdennmitkarstenlos",
+        "text": "Was ist denn mit Karsten los?",
+        "category": "fun",
+        "color": "red"
+    },
+    {
+        "sound": "thefinalfrontier",
+        "text": "The Final Frontier",
+        "category": "star trek",
+        "color": "green"
+    },
+    {
+        "sound": "warp_new",
+        "text": "New Warp",
+        "category": "star trek",
+        "color": "yellow"
+    },
+    {
+        "sound": "hyperspace",
+        "text": "Hyperspace",
+        "category": "star trek",
+        "color": "blue"
+    },
+    {
+        "sound": "maintitletheme",
+        "text": "Main Title Theme",
+        "category": "star trek",
+        "color": "red"
+    },
+    {
+        "sound": "maintitlefluet",
+        "text": "Main Title Orchestra",
+        "category": "star trek",
+        "color": "green"
     }
 ]

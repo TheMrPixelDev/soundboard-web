@@ -9,7 +9,7 @@ h1 {
     margin: 4rem 0;
 }
 
-main {
+.category div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -34,7 +34,7 @@ button {
     body {
         margin: 0;
     }
-    main {
+    .category div {
         width: 100%;
         justify-content: center;
     }

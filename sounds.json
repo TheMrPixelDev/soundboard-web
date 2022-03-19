@@ -166,5 +166,11 @@
         "text": "Main Title Orchestra",
         "category": "star trek",
         "color": "green"
+    },
+    {
+        "sound": "2x2eigenwertjingle",
+        "text": "2x2 Eigenwerte",
+        "category": "education",
+        "color": "green"
     }
 ]

@@ -172,5 +172,11 @@
         "text": "2x2 Eigenwerte",
         "category": "education",
         "color": "green"
+    },
+    {
+        "sound": "eliminatetheimpossible",
+        "text": "Eliminate the impossible...",
+        "category": "star trek",
+        "color": "blue"
     }
 ]

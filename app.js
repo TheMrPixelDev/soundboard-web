@@ -7,17 +7,19 @@ var audio = new Audio();
             
         }
 
-        fetch("sounds.json").then(result => result.json().then(buttons => {
+        fetch("sounds.json").then(result => result.json().then(async buttons =>  {
 
             var categories = [];
 
-            buttons.sort((a, b) => {
+            await buttons.sort((a, b) => {
                 if(a.category < b.category){
                     return -1;
                 }else{
                     return 0;
                 }
             })
+
+            console.log(buttons)
 
             var prevCategory = "first";
             let currentBtnContainer;

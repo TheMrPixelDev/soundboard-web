@@ -74,7 +74,7 @@ fetch("sounds.json").then(result => result.json().then(async buttons =>  {
  */
 if("ondevicemotion" in window) {
     console.log("Device motion detection available!")
-    var shakeEvent = new Shake({threshold: 30, timeout: 3000});
+    var shakeEvent = new Shake({threshold: 15, timeout: 1000});
     shakeEvent.start();
     window.addEventListener("shake", () => {
         const index = Math.floor(Math.random() * soundsList.length);

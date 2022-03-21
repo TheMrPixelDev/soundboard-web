@@ -64,3 +64,24 @@ button:active {
 .green {
     background-color: greenyellow;
 }
+
+.aqua {
+    background-color: aqua;
+}
+
+.dark-red {
+    background-color: darkred;
+    color: white;
+}
+
+.msg-box {
+    background-color:palegreen;
+    color: black;
+    font-weight: bolder;
+    /*opacity: 0.7;*/
+    padding: 0.5rem;
+    border-radius: 10px;
+    position:fixed;
+    bottom: 1rem;
+
+}

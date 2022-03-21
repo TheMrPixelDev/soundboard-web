@@ -178,5 +178,17 @@
         "text": "Eliminate the impossible...",
         "category": "star trek",
         "color": "blue"
+    },
+    {
+        "sound": "beepimasheep",
+        "text": "Beep Beep I'm A Sheep",
+        "category": "fun",
+        "color": "blue"
+    },
+    {
+        "sound": "ichkannnichtlesen",
+        "text": "Ich kann nicht lesen",
+        "category": "star trek",
+        "color": "blue"
     }
 ]

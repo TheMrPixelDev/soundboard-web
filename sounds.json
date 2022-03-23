@@ -202,5 +202,35 @@
         "text": "Space Taxi To The Sky",
         "category": "star trek",
         "color": "yellow"
+    },
+    {
+        "sound": "marceldavis",
+        "text": "Ich bin Marcel Davis",
+        "category": "fun",
+        "color": "yellow"
+    },
+    {
+        "sound": "marceldavis1und1",
+        "text": "Marcel Davis 1&1",
+        "category": "fun",
+        "color": "green"
+    },
+    {
+        "sound": "wennderanschlusslaeuft",
+        "text": "...wenn der Anschluss läuft...",
+        "category": "fun",
+        "color": "red"
+    },
+    {
+        "sound": "fairundtransparent",
+        "text": "fair und transparent",
+        "category": "fun",
+        "color": "blue"
+    },
+    {
+        "sound": "1und1",
+        "text": "1&1",
+        "category": "fun",
+        "color": "yellow"
     }
 ]

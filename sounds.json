@@ -232,5 +232,17 @@
         "text": "1&1",
         "category": "fun",
         "color": "yellow"
+    },
+    {
+        "sound": "gottbewahreeuropa",
+        "text": "Gott bewahre Europa",
+        "category": "fun",
+        "color": "blue"
+    },
+    {
+        "sound": "gottbewahreeuropa",
+        "text": "Gott bewahre Europa",
+        "category": "education",
+        "color": "blue"
     }
 ]

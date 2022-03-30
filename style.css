@@ -85,3 +85,14 @@ button:active {
     bottom: 1rem;
 
 }
+
+#github-button svg{
+    height: 2rem;
+    filter: invert(1);
+}
+
+#github-button {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}

@@ -244,5 +244,11 @@
         "text": "Gott bewahre Europa",
         "category": "education",
         "color": "blue"
+    },
+    {
+        "sound": "alarm",
+        "text": "Alarm!",
+        "category": "fun",
+        "color": "red"
     }
 ]

@@ -250,5 +250,11 @@
         "text": "Alarm!",
         "category": "fun",
         "color": "red"
+    },
+    {
+        "sound": "sandmann",
+        "text": "Sandmann",
+        "category": "education",
+        "color": "yellow"
     }
 ]

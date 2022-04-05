@@ -256,5 +256,11 @@
         "text": "Sandmann",
         "category": "education",
         "color": "yellow"
+    },
+    {
+        "sound": "nichtbestanden",
+        "text": "Nicht bestanden!",
+        "category": "education",
+        "color": "red"
     }
 ]

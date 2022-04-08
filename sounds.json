@@ -262,5 +262,23 @@
         "text": "Nicht bestanden!",
         "category": "education",
         "color": "red"
+    },
+    {
+        "sound": "binichdrin",
+        "text": "Bin ich drin?",
+        "category": "fun",
+        "color": "red"
+    },
+    {
+        "sound": "egal",
+        "text": "Egal...!",
+        "category": "fun",
+        "color": "blue"
+    },
+    {
+        "sound": "kokain",
+        "text": "Überall Kokain",
+        "category": "fun",
+        "color": "yellow"
     }
 ]

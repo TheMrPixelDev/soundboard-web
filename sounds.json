@@ -280,5 +280,11 @@
         "text": "Überall Kokain",
         "category": "fun",
         "color": "yellow"
+    },
+    {
+        "sound": "colareingepfiffen",
+        "text": "DIE COLA",
+        "category": "fun",
+        "color": "red"
     }
 ]

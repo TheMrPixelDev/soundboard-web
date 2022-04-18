@@ -286,5 +286,11 @@
         "text": "DIE COLA",
         "category": "fun",
         "color": "red"
+    },
+    {
+        "sound": "kleinespende",
+        "text": "Spende",
+        "category": "fun",
+        "color": "blue"
     }
 ]

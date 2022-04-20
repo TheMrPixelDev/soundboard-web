@@ -33,14 +33,13 @@ function spawnMsgBox(soundTitle) {
         document.body.appendChild(msgBox);
 }
 
-fetch("sounds.json").then(result => result.json().then(async buttons =>  {
-    await buttons.sort((a, b) => {
-        if(a.category < b.category){
-            return -1;
-        }else{
-            return 0;
-        }
-    })
+/**
+ * Renders the buttons array on the DOM
+ */
+
+function renderButtons(buttons) {
+
+    document.getElementsByTagName("main")[0].innerHTML = "";
 
     var prevCategory = "first";
     let currentBtnContainer;
@@ -65,9 +64,64 @@ fetch("sounds.json").then(result => result.json().then(async buttons =>  {
         button.classList = b.color;
         button.onclick = () => playSound(b.sound, b.text);
         currentBtnContainer.appendChild(button);
-        soundsList = buttons;   
     }
+}
+
+/**
+ * Gets the list of all sounds
+ */
+fetch("sounds.json").then(result => result.json().then(async buttons =>  {
+    await buttons.sort((a, b) => {
+        if(a.category < b.category){
+            return -1;
+        }else{
+            return 0;
+        }
+    });
+
+    soundsList = buttons;
+    renderButtons(buttons);
+
+    /*var prevCategory = "first";
+    let currentBtnContainer;
+
+    for (let b of buttons) {
+
+        if(b.category != prevCategory) {
+            let domCategory = document.createElement("div");
+            currentBtnContainer = document.createElement("div");
+            let title = document.createElement("h2");
+            title.innerHTML = b.category.toUpperCase();
+            domCategory.id = b.category;
+            domCategory.classList = "category";
+            domCategory.appendChild(title);
+            domCategory.appendChild(currentBtnContainer);
+            document.getElementsByTagName("main")[0].appendChild(domCategory);
+            prevCategory = b.category;                    
+        }
+
+        let button = document.createElement("button");
+        button.innerText = b.text;
+        button.classList = b.color;
+        button.onclick = () => playSound(b.sound, b.text);
+        currentBtnContainer.appendChild(button);
+        soundsList = buttons;
+    }*/
 }));
+
+
+/**
+ * Implements the button search function
+ */
+document.getElementById("search").oninput = () => {
+    var text = document.getElementById("search").value;
+    var searchedButtons = soundsList.filter((element) => {
+        return element.text.toLowerCase().includes(text.toLowerCase())
+    })
+
+    console.log(searchedButtons);
+    renderButtons(searchedButtons);
+}
 
 /**
  * Device Shake Detection for random playback
@@ -104,3 +158,8 @@ document.getElementById("stop").addEventListener("click", async e => {
         console.log("There is no msg yet...")
     }
 })
+
+document.getElementById("cancel").onclick = () => {
+    document.getElementById("search").value = "";
+    renderButtons(soundsList);
+}

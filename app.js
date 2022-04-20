@@ -70,43 +70,36 @@ function renderButtons(buttons) {
 /**
  * Gets the list of all sounds
  */
-fetch("sounds.json").then(result => result.json().then(async buttons =>  {
-    await buttons.sort((a, b) => {
+fetch("sounds.json").then(result => result.json().then(sounds =>  {
+
+    /**
+     * Sorts the returned json by category
+     */
+
+    /*buttons = buttons.sort((a, b) => {
+        
         if(a.category < b.category){
             return -1;
         }else{
             return 0;
         }
-    });
+    });*/
 
-    soundsList = buttons;
-    renderButtons(buttons);
-
-    /*var prevCategory = "first";
-    let currentBtnContainer;
-
-    for (let b of buttons) {
-
-        if(b.category != prevCategory) {
-            let domCategory = document.createElement("div");
-            currentBtnContainer = document.createElement("div");
-            let title = document.createElement("h2");
-            title.innerHTML = b.category.toUpperCase();
-            domCategory.id = b.category;
-            domCategory.classList = "category";
-            domCategory.appendChild(title);
-            domCategory.appendChild(currentBtnContainer);
-            document.getElementsByTagName("main")[0].appendChild(domCategory);
-            prevCategory = b.category;                    
+    for(let category in sounds) {
+        for(let sound of sounds[category]) {
+            soundsList.push(
+                {
+                    "text": sound.text,
+                    "sound": sound.sound,
+                    "color": sound.color,
+                    "category": category
+                }
+            )
         }
+    }
 
-        let button = document.createElement("button");
-        button.innerText = b.text;
-        button.classList = b.color;
-        button.onclick = () => playSound(b.sound, b.text);
-        currentBtnContainer.appendChild(button);
-        soundsList = buttons;
-    }*/
+    renderButtons(soundsList);
+
 }));
 
 

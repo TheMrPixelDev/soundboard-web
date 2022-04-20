@@ -9,6 +9,25 @@ h1 {
     margin-top: 4rem;
 }
 
+.action-btn {
+    transition: 0.18s ease;
+    border: 2px solid;
+    padding: 0.55em 0.75em 0.5em;
+    border-radius: 4px;
+    font-weight: bold;
+    min-height: 39px;
+    font-size: medium;
+}
+
+.action-btn:hover {
+    background-color: #27292e;
+    color: white;
+}
+
+.action-btn svg {
+    height: 1rem;
+}
+
 .category div {
     display: flex;
     flex-direction: row;
@@ -67,18 +86,24 @@ main button:active {
 
 .aqua {
     background-color: aqua;
+    border-color: aqua;
 }
 
 .dark-red {
     background-color: darkred;
+    border-color: darkred;
     color: white;
+}
+
+.white {
+    background-color: white;
+    border-color: white;
 }
 
 .msg-box {
     background-color:palegreen;
     color: black;
     font-weight: bolder;
-    /*opacity: 0.7;*/
     padding: 0.5rem;
     border-radius: 10px;
     position:fixed;
@@ -103,20 +128,6 @@ main button:active {
     border: 2px solid white;
     border-radius: 4px;
     padding: 0 0.5rem;
-    background-color: #27292e;
-    color: white;
-}
-
-#cancel {
-    transition: 0.18s ease;
-    border: 2px solid white;
-    padding: 0.55em 0.75em 0.5em;
-    border-radius: 4px;
-    font-weight: bold;
-    min-height: 39px;
-}
-
-#cancel:hover {
     background-color: #27292e;
     color: white;
 }

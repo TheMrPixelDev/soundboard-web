@@ -1,296 +1,253 @@
-[
-    {
-        "sound": "istmiregal",
-        "text": "Ist mir egal",
-        "category": "fun",
-        "color": "red"
-    },
-    {
-        "sound": "mahlzeit",
-        "text": "Mahlzeit!",
-        "category": "fun",
-        "color": "green"
-    },
-    {
-        "sound": "gorgonnzola",
-        "text": "Der Gorgonnzola",
-        "category": "fun",
-        "color": "blue"
-    },
-    {
-        "sound": "fettarme",
-        "text": "Fettarme",
-        "category": "fun",
-        "color": "yellow"
-    },
-    {
-        "sound": "ho",
-        "text": "Ho!",
-        "category": "fun",
-        "color": "red"
-    },
-    {
-        "sound": "werruftdaan",
-        "text": "Wer ruf da an?",
-        "category": "fun",
-        "color": "green"
-    },
-    {
-        "sound": "backkammembert",
-        "text": "Der Backkammembert",
-        "category": "fun",
-        "color": "blue"
-    },
-    {
-        "sound": "ernaehrung",
-        "text": "Ich achte auf meine Ernährung",
-        "category": "fun",
-        "color": "yellow"
-    },
-    {
-        "sound": "ganzehrlich",
-        "text": "Ganz ehrlich!",
-        "category": "fun",
-        "color": "red"
-    },
-    {
-        "sound": "emotionaldamage",
-        "text": "Emotional Damage",
-        "category": "fun",
-        "color": "green"
-    },
-    {
-        "sound": "10minuten",
-        "text": "10 Minuten!",
-        "category": "fun",
-        "color": "blue"
-    },
-    {
-        "sound": "weildasjaklarist",
-        "text": "Weil das ja klar ist...",
-        "category": "fun",
-        "color": "yellow"
-    },
-    {
-        "sound": "ichschwitze",
-        "text": "Ich schwitze...",
-        "category": "fun",
-        "color": "green"
-    },
-    {
-        "sound": "goennungbeihitze",
-        "text": "Gönnung!",
-        "category": "fun",
-        "color": "blue"
-    },
-    {
-        "sound": "prost",
-        "text": "Prost!",
-        "category": "fun",
-        "color": "red"
-    },
-    {
-        "sound": "ohh",
-        "text": "Ohh...",
-        "category": "fun",
-        "color": "yellow"
-    },
-    {
-        "sound": "socremig",
-        "text": "XX so cremig!",
-        "category": "fun",
-        "color": "blue"
-    },
-    {
-        "sound": "ahmehrere",
-        "text": "Da sind ja mehrere!",
-        "category": "fun",
-        "color": "green"
-    },
-    {
-        "sound": "isnetmehrnormal",
-        "text": "Is net mehr normal!",
-        "category": "fun",
-        "color": "red"
-    },
-    {
-        "sound": "nichtmehranrufen",
-        "text": "Hört mal auf mich anzurufen!",
-        "category": "fun",
-        "color": "yellow"
-    },
-    {
-        "sound": "paulgehweg",
-        "text": "Geh weg!",
-        "category": "fun",
-        "color": "green"
-    },
-    {
-        "sound": "perversgeil",
-        "text": "Pervers geil!",
-        "category": "fun",
-        "color": "blue"
-    },
-    {
-        "sound": "wasistdennmitkarstenlos",
-        "text": "Was ist denn mit Karsten los?",
-        "category": "fun",
-        "color": "red"
-    },
-    {
-        "sound": "thefinalfrontier",
-        "text": "The Final Frontier",
-        "category": "star trek",
-        "color": "green"
-    },
-    {
-        "sound": "warp_new",
-        "text": "New Warp",
-        "category": "star trek",
-        "color": "yellow"
-    },
-    {
-        "sound": "hyperspace",
-        "text": "Hyperspace",
-        "category": "star trek",
-        "color": "blue"
-    },
-    {
-        "sound": "maintitletheme",
-        "text": "Main Title Theme",
-        "category": "star trek",
-        "color": "red"
-    },
-    {
-        "sound": "maintitlefluet",
-        "text": "Main Title Orchestra",
-        "category": "star trek",
-        "color": "green"
-    },
-    {
-        "sound": "2x2eigenwertjingle",
-        "text": "2x2 Eigenwerte",
-        "category": "education",
-        "color": "green"
-    },
-    {
-        "sound": "eliminatetheimpossible",
-        "text": "Eliminate the impossible...",
-        "category": "star trek",
-        "color": "blue"
-    },
-    {
-        "sound": "beepimasheep",
-        "text": "Beep Beep I'm A Sheep",
-        "category": "fun",
-        "color": "blue"
-    },
-    {
-        "sound": "ichkannnichtlesen",
-        "text": "Ich kann nicht lesen",
-        "category": "fun",
-        "color": "blue"
-    },
-    {
-        "sound": "spacetaxitothesky",
-        "text": "Space Taxi To The Sky",
-        "category": "fun",
-        "color": "red"
-    },
-    {
-        "sound": "spacetaxitothesky",
-        "text": "Space Taxi To The Sky",
-        "category": "star trek",
-        "color": "yellow"
-    },
-    {
-        "sound": "marceldavis",
-        "text": "Ich bin Marcel Davis",
-        "category": "fun",
-        "color": "yellow"
-    },
-    {
-        "sound": "marceldavis1und1",
-        "text": "Marcel Davis 1&1",
-        "category": "fun",
-        "color": "green"
-    },
-    {
-        "sound": "wennderanschlusslaeuft",
-        "text": "...wenn der Anschluss läuft...",
-        "category": "fun",
-        "color": "red"
-    },
-    {
-        "sound": "fairundtransparent",
-        "text": "fair und transparent",
-        "category": "fun",
-        "color": "blue"
-    },
-    {
-        "sound": "1und1",
-        "text": "1&1",
-        "category": "fun",
-        "color": "yellow"
-    },
-    {
-        "sound": "gottbewahreeuropa",
-        "text": "Gott bewahre Europa",
-        "category": "fun",
-        "color": "blue"
-    },
-    {
-        "sound": "gottbewahreeuropa",
-        "text": "Gott bewahre Europa",
-        "category": "education",
-        "color": "blue"
-    },
-    {
-        "sound": "alarm",
-        "text": "Alarm!",
-        "category": "fun",
-        "color": "red"
-    },
-    {
-        "sound": "sandmann",
-        "text": "Sandmann",
-        "category": "education",
-        "color": "yellow"
-    },
-    {
-        "sound": "nichtbestanden",
-        "text": "Nicht bestanden!",
-        "category": "education",
-        "color": "red"
-    },
-    {
-        "sound": "binichdrin",
-        "text": "Bin ich drin?",
-        "category": "fun",
-        "color": "red"
-    },
-    {
-        "sound": "egal",
-        "text": "Egal...!",
-        "category": "fun",
-        "color": "blue"
-    },
-    {
-        "sound": "kokain",
-        "text": "Überall Kokain",
-        "category": "fun",
-        "color": "yellow"
-    },
-    {
-        "sound": "colareingepfiffen",
-        "text": "DIE COLA",
-        "category": "fun",
-        "color": "red"
-    },
-    {
-        "sound": "kleinespende",
-        "text": "Spende",
-        "category": "fun",
-        "color": "blue"
-    }
-]
+{
+    "fun": [
+        {
+            "sound": "kleinespende",
+            "text": "Spende",
+            "color": "blue"
+        },
+        {
+            "sound": "colareingepfiffen",
+            "text": "DIE COLA",
+            "color": "red"
+        },
+        {
+            "sound": "kokain",
+            "text": "Überall Kokain",
+            "color": "yellow"
+        },
+        {
+            "sound": "egal",
+            "text": "Egal...!",
+            "color": "blue"
+        },
+        {
+            "sound": "binichdrin",
+            "text": "Bin ich drin?",
+            "color": "red"
+        },
+        {
+            "sound": "alarm",
+            "text": "Alarm!",
+            "color": "red"
+        },
+        {
+            "sound": "gottbewahreeuropa",
+            "text": "Gott bewahre Europa",
+            "color": "blue"
+        },
+        {
+            "sound": "1und1",
+            "text": "1&1",
+            "color": "yellow"
+        },
+        {
+            "sound": "fairundtransparent",
+            "text": "fair und transparent",
+            "color": "blue"
+        },
+        {
+            "sound": "wennderanschlusslaeuft",
+            "text": "...wenn der Anschluss läuft...",
+            "color": "red"
+        },
+        {
+            "sound": "marceldavis1und1",
+            "text": "Marcel Davis 1&1",
+            "color": "green"
+        },
+        {
+            "sound": "marceldavis",
+            "text": "Ich bin Marcel Davis",
+            "color": "yellow"
+        },
+        {
+            "sound": "spacetaxitothesky",
+            "text": "Space Taxi To The Sky",
+            "color": "red"
+        },
+        {
+            "sound": "ichkannnichtlesen",
+            "text": "Ich kann nicht lesen",
+            "color": "blue"
+        },
+        {
+            "sound": "beepimasheep",
+            "text": "Beep Beep I'm A Sheep",
+            "color": "blue"
+        },
+        {
+            "sound": "wasistdennmitkarstenlos",
+            "text": "Was ist denn mit Karsten los?",
+            "color": "red"
+        },
+        {
+            "sound": "perversgeil",
+            "text": "Pervers geil!",
+            "color": "blue"
+        },
+        {
+            "sound": "paulgehweg",
+            "text": "Geh weg!",
+            "color": "green"
+        },
+        {
+            "sound": "nichtmehranrufen",
+            "text": "Hört mal auf mich anzurufen!",
+            "color": "yellow"
+        },
+        {
+            "sound": "isnetmehrnormal",
+            "text": "Is net mehr normal!",
+            "color": "red"
+        },
+        {
+            "sound": "ahmehrere",
+            "text": "Da sind ja mehrere!",
+            "color": "green"
+        },
+        {
+            "sound": "socremig",
+            "text": "XX so cremig!",
+            "color": "blue"
+        },
+        {
+            "sound": "ohh",
+            "text": "Ohh...",
+            "color": "yellow"
+        },
+        {
+            "sound": "prost",
+            "text": "Prost!",
+            "color": "red"
+        },
+        {
+            "sound": "goennungbeihitze",
+            "text": "Gönnung!",
+            "color": "blue"
+        },
+        {
+            "sound": "ichschwitze",
+            "text": "Ich schwitze...",
+            "color": "green"
+        },
+        {
+            "sound": "weildasjaklarist",
+            "text": "Weil das ja klar ist...",
+            "color": "yellow"
+        },
+        {
+            "sound": "10minuten",
+            "text": "10 Minuten!",
+            "color": "blue"
+        },
+        {
+            "sound": "emotionaldamage",
+            "text": "Emotional Damage",
+            "color": "green"
+        },
+        {
+            "sound": "ganzehrlich",
+            "text": "Ganz ehrlich!",
+            "color": "red"   
+        },
+        {
+            "sound": "ernaehrung",
+            "text": "Ich achte auf meine Ernährung",
+            "color": "yellow"
+        },
+        {
+            "sound": "backkammembert",
+            "text": "Der Backkammembert",
+            "color": "blue"
+        },
+        {
+            "sound": "werruftdaan",
+            "text": "Wer ruf da an?",
+            "color": "green"
+        },
+        {
+            "sound": "ho",
+            "text": "Ho!",
+            "color": "red"
+        },
+        {
+            "sound": "fettarme",
+            "text": "Fettarme",
+            "color": "yellow"
+        },
+        {
+            "sound": "gorgonnzola",
+            "text": "Der Gorgonnzola",
+            "color": "blue"
+        },
+        {
+            "sound": "mahlzeit",
+            "text": "Mahlzeit!",
+            "color": "green"
+        },
+        {
+            "sound": "istmiregal",
+            "text": "Ist mir egal",
+            "color": "red"
+        }
+    ],
+    "education": [
+        {
+            "sound": "nichtbestanden",
+            "text": "Nicht bestanden!",
+            "color": "red"
+        },
+        {
+            "sound": "sandmann",
+            "text": "Sandmann",
+            "color": "yellow"
+        },
+        {
+            "sound": "gottbewahreeuropa",
+            "text": "Gott bewahre Europa",
+            "color": "blue"
+        },
+        {
+            "sound": "2x2eigenwertjingle",
+            "text": "2x2 Eigenwerte",
+            "color": "green"
+        }
+    ],
+    "star trek":[
+        {
+            "sound": "spacetaxitothesky",
+            "text": "Space Taxi To The Sky",
+            "color": "yellow"
+        },
+        {
+            "sound": "eliminatetheimpossible",
+            "text": "Eliminate the impossible...",
+            "color": "blue"
+        },
+        {
+            "sound": "maintitlefluet",
+            "text": "Main Title Orchestra",
+            "color": "green"
+        },
+        {
+            "sound": "maintitletheme",
+            "text": "Main Title Theme",
+            "color": "red"
+        },
+        {
+            "sound": "hyperspace",
+            "text": "Hyperspace",
+            "color": "blue"
+        },
+        {
+            "sound": "warp_new",
+            "text": "New Warp",
+            "color": "yellow"
+        },
+        {
+            "sound": "thefinalfrontier",
+            "text": "The Final Frontier",
+            "color": "green"
+        }
+    ]
+}

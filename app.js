@@ -73,17 +73,8 @@ function renderButtons(buttons) {
 fetch("sounds.json").then(result => result.json().then(sounds =>  {
 
     /**
-     * Sorts the returned json by category
+     * Translates config versions
      */
-
-    /*buttons = buttons.sort((a, b) => {
-        
-        if(a.category < b.category){
-            return -1;
-        }else{
-            return 0;
-        }
-    });*/
 
     for(let category in sounds) {
         for(let sound of sounds[category]) {
@@ -107,13 +98,24 @@ fetch("sounds.json").then(result => result.json().then(sounds =>  {
  * Implements the button search function
  */
 document.getElementById("search").oninput = () => {
-    var text = document.getElementById("search").value;
-    var searchedButtons = soundsList.filter((element) => {
-        return element.text.toLowerCase().includes(text.toLowerCase())
-    })
+    var text = document.getElementById("search").value.toLowerCase();
 
-    console.log(searchedButtons);
-    renderButtons(searchedButtons);
+    if(text.includes("dei m")) {
+        document.getElementsByTagName("main")[0].innerHTML = `<h1>Sei einfach still 🖕</h1>`;
+    } else {
+        var searchedButtons = soundsList.filter((element) => {
+        return element.text.toLowerCase().includes(text)
+        })
+        
+        console.log(searchedButtons);
+
+        if(searchedButtons.length < 1) {
+            document.getElementsByTagName("main")[0].innerHTML = `<h3 style="margin-top: 10%">Ey ich find halt nix...</h3>`;
+        }else{
+            renderButtons(searchedButtons);
+        }
+
+    }
 }
 
 /**

@@ -97,6 +97,9 @@ fetch("sounds.json").then(result => result.json().then(sounds =>  {
 /**
  * Implements the button search function
  */
+
+var noSearchResult = 0;
+
 document.getElementById("search").oninput = () => {
     var text = document.getElementById("search").value.toLowerCase();
 
@@ -110,8 +113,15 @@ document.getElementById("search").oninput = () => {
         console.log(searchedButtons);
 
         if(searchedButtons.length < 1) {
-            document.getElementsByTagName("main")[0].innerHTML = `<h3 style="margin-top: 10%">Ey ich find halt nix...</h3>`;
+
+            if(noSearchResult < 5) {
+                noSearchResult++;
+                document.getElementsByTagName("main")[0].innerHTML = `<h3 style="margin-top: 10%">Ey ich find halt nix...</h3>`;
+            } else {
+                document.getElementsByTagName("main")[0].innerHTML = `<h1 style="margin-top: 10%">Digga verpiss dich einfach 😡!</h1>`;
+            }
         }else{
+            noSearchResult = 0;
             renderButtons(searchedButtons);
         }
 

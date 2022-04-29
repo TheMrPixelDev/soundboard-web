@@ -10,13 +10,12 @@ h1 {
 }
 
 .action-btn {
-    transition: 0.18s ease;
-    border: 2px solid;
-    padding: 0.55em 0.75em 0.5em;
-    border-radius: 4px;
-    font-weight: bold;
-    min-height: 39px;
-    font-size: medium;
+    transition: 0.7s ease;
+    padding: 12px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 5rem;
 }
 
 .action-btn:hover {
@@ -25,7 +24,7 @@ h1 {
 }
 
 .action-btn svg {
-    height: 1rem;
+    height: 5rem;
 }
 
 .category div {
@@ -47,6 +46,18 @@ main button {
     cursor: pointer;
     box-shadow: 5px 5px 5px 0 #202225;
     margin: 1rem;
+}
+
+main button:hover {
+    animation: pulsate 1s ease-in-out;
+}
+
+@keyframes pulsate {
+    0%{
+        box-shadow: 
+        0 0 25px #5ddcff,
+        0 0 50px #4e00c2;
+    }
 }
 
 @media (max-width: 500px) {
@@ -89,15 +100,14 @@ main button:active {
     border-color: aqua;
 }
 
+.cyan {
+    background-color: #22ffc0;
+}
+
 .dark-red {
     background-color: darkred;
     border-color: darkred;
     color: white;
-}
-
-.white {
-    background-color: white;
-    border-color: white;
 }
 
 .msg-box {
@@ -122,12 +132,56 @@ main button:active {
     right: 2rem;
 }
 
-#search {
-    min-height: 35px;
-    font: inherit;
-    border: 2px solid white;
-    border-radius: 4px;
-    padding: 0 0.5rem;
-    background-color: #27292e;
-    color: white;
-}
+.search-box, .search-input, .search-btn {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .search-box {
+    width: 19rem;
+    height: 60px;
+    background: #27292e;
+    line-height: 40px;
+    padding: 10px;
+    border-radius: 60px;
+    cursor: pointer;
+  }
+  
+  .search-input {
+    background: #27292e;
+    color: #fff;
+    outline: none;
+    border: none;
+    line-height: 40px;
+    font-size: 1em;
+    transition: 0.7s ease;
+  }
+  
+  .search-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background: #27292e;
+    padding: 12px;
+    border-radius: 50%;
+    float: right;
+    color: #22ffc0;
+    transition: 0.4s ease;
+  }
+
+  .search-box:hover > .search-btn, 
+  .search-input:focus + .search-btn {
+    background: #22ffc0;
+    color: #101010;
+  }
+
+  .flexbox {
+      display: flex;
+      justify-content: center;
+  }
+
+  .action-btn, .search-box {
+    margin: 0.5rem;
+    font-weight: bolder;
+}  

@@ -1,6 +1,11 @@
 {
     "fun": [
         {
+            "sound": "bittenicht",
+            "text": "Bitte nicht...",
+            "color": "green"
+        },
+        {
             "sound": "kleinespende",
             "text": "Spende",
             "color": "blue"

@@ -6,6 +6,11 @@
             "color": "green"
         },
         {
+            "sound": "jeopardy",
+            "text": "Waiting...",
+            "color": "green"
+        },
+        {
             "sound": "kleinespende",
             "text": "Spende",
             "color": "blue"

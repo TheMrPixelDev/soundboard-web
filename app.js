@@ -12,6 +12,7 @@ async function playSound(sound, title) {
     audio = new Audio("sounds/" + sound + ".mp3")
     spawnMsgBox(title);
     audio.play(); 
+    window.navigator.vibrate([300]);
 }
 
 /**

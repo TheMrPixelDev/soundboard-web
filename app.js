@@ -31,10 +31,10 @@ function spawnMsgBox(soundTitle) {
     msgBox.id= "msg-box";
     
     const progress = document.createElement("p");
-
+    progress.innerHTML = "Loading audio..."
     
     const audioCtrlBtn = document.createElement("button");
-    audioCtrlBtn.innerHTML = '<i class="fa-sharp fa-solid fa-pause"></i>';
+    audioCtrlBtn.innerHTML = '<i class="fa-solid fa-spinner"></i>';
     audioCtrlBtn.classList = "action-btn blue"
 
     audioCtrlBtn.addEventListener("click", () => {
@@ -57,6 +57,10 @@ function spawnMsgBox(soundTitle) {
     document.body.appendChild(msgBox);
 
     audio.addEventListener("ended", () => { msgBox.remove();})
+
+    audio.oncanplay = () => {
+        audioCtrlBtn.innerHTML = '<i class="fa-sharp fa-solid fa-pause"></i>';
+    }
 
     audio.addEventListener("timeupdate", () => {
         progress.innerHTML = `${soundTitle} <br> ${(audio.currentTime / 60).toFixed(2)} <progress value="${audio.currentTime}" max="${audio.duration}"></progress> ${(audio.duration / 60).toFixed(2)}`

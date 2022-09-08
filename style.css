@@ -111,14 +111,19 @@ main button:active {
 }
 
 .msg-box {
-    background-color:palegreen;
-    color: black;
+    background-color:#202225;
+    color: white;
     font-weight: bolder;
     padding: 0.5rem;
-    border-radius: 10px;
-    position:fixed;
-    bottom: 1rem;
-
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: fixed;
+    width: calc(100% - 1rem);
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #github-button svg{

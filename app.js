@@ -6,6 +6,7 @@
 
 var audio = new Audio();
 var soundsList = [];
+var audioPlaying = false;
 
 async function playSound(sound, title) {
     await audio.pause();
@@ -24,14 +25,42 @@ function spawnMsgBox(soundTitle) {
     }catch{
         console.log("There is no msg yet...")
     }
+        
     const msgBox = document.createElement("div");
-        msgBox.classList = "msg-box";
-        msgBox.id= "msg-box";
-        msgBox.innerHTML = `<p>Playing "${soundTitle}"</p>`;
-        setTimeout(() => {
-            msgBox.remove();
-        }, 4000);
-        document.body.appendChild(msgBox);
+    msgBox.classList = "msg-box";
+    msgBox.id= "msg-box";
+    
+    const progress = document.createElement("p");
+
+    
+    const audioCtrlBtn = document.createElement("button");
+    audioCtrlBtn.innerHTML = '<i class="fa-sharp fa-solid fa-pause"></i>';
+    audioCtrlBtn.classList = "action-btn blue"
+
+    audioCtrlBtn.addEventListener("click", () => {
+        if(audioPlaying) {
+            audioCtrlBtn.innerHTML = '<i class="fa-sharp fa-solid fa-play"></i>'
+            audio.pause();
+            audioPlaying = !audioPlaying
+            console.log("stopping audio")
+        }else{
+            audioCtrlBtn.innerHTML = '<i class="fa-sharp fa-solid fa-pause"></i>'
+            audio.play()
+            audioPlaying = !audioPlaying
+            console.log("resuming audio")
+        }
+        
+    })
+
+    msgBox.appendChild(audioCtrlBtn);
+    msgBox.appendChild(progress);
+    document.body.appendChild(msgBox);
+
+    audio.addEventListener("ended", () => { msgBox.remove();})
+
+    audio.addEventListener("timeupdate", () => {
+        progress.innerHTML = `${soundTitle} <br> ${(audio.currentTime / 60).toFixed(2)} <progress value="${audio.currentTime}" max="${audio.duration}"></progress> ${(audio.duration / 60).toFixed(2)}`
+    })
 }
 
 /**

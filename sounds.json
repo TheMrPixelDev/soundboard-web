@@ -199,6 +199,16 @@
             "sound": "istmiregal",
             "text": "Ist mir egal",
             "color": "red"
+        },
+        {
+            "sound": "directedbyrobert",
+            "text": "Directed By Robert",
+            "color": "yellow"
+        },
+        {
+            "sound": "uwe",
+            "text": "Uwe Autotune",
+            "color": "green"
         }
     ],
     "education": [

@@ -209,6 +209,26 @@
             "sound": "uwe",
             "text": "Uwe Autotune",
             "color": "green"
+        },
+        {
+            "sound": "wochenendesaufengeil",
+            "text": "Wochenende, Saufen, GeIl",
+            "color": "red"
+        },
+        {
+            "sound": "michirettetbier",
+            "text": "Michi rettet Bier",
+            "color": "blue"
+        },
+        {
+            "sound": "einenreintrinken",
+            "text": "Richtig einen reintrinken",
+            "color": "yellow"
+        },
+        {
+            "sound": "dasgibtneanzeige",
+            "text": "Das gibt ne Anzeige",
+            "color": "green"
         }
     ],
     "education": [

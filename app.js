@@ -11,7 +11,7 @@ var audioPlaying = false;
 async function playSound(sound, title) {
     await audio.pause();
     audio = new Audio("sounds/" + sound + ".mp3")
-    spawnMsgBox(title);
+    spawnMsgBox(title, sound);
     audio.play(); 
     window.navigator.vibrate([300]);
 }
@@ -19,7 +19,7 @@ async function playSound(sound, title) {
 /**
  * Creates a div on the DOM which acts as a alert box
  */
-function spawnMsgBox(soundTitle) {
+function spawnMsgBox(soundTitle, soundName) {
     try {
         document.getElementById("msg-box").remove();
     }catch{
@@ -36,6 +36,14 @@ function spawnMsgBox(soundTitle) {
     const audioCtrlBtn = document.createElement("button");
     audioCtrlBtn.innerHTML = '<i class="fa-solid fa-spinner"></i>';
     audioCtrlBtn.classList = "action-btn blue"
+
+    const audioShareBtn = document.createElement("button");
+    audioShareBtn.innerHTML = '<i class="fa-solid fa-share-nodes"></i>'
+    audioShareBtn.classList = "action-btn green"
+    audioShareBtn.onclick = () => {
+        shareSound(soundName);
+    }
+
 
     audioCtrlBtn.addEventListener("click", () => {
         if(audioPlaying) {
@@ -65,6 +73,19 @@ function spawnMsgBox(soundTitle) {
     audio.addEventListener("timeupdate", () => {
         progress.innerHTML = `${soundTitle} <br> ${(audio.currentTime / 60).toFixed(2)} <progress value="${audio.currentTime}" max="${audio.duration}"></progress> ${(audio.duration / 60).toFixed(2)}`
     })
+}
+
+function shareSound(sound) {
+    if(navigator.share){
+        navigator.share({
+            title: document.title,
+            text: "Listen to the following sound.",
+            url: window.location.hostname + "/" + sound
+        })
+    }else{
+        navigator.clipboard.writeText(window.location.hostname + "/" + sound);
+        alert("Link has been copied to clipboard.")
+    }
 }
 
 /**
@@ -106,6 +127,7 @@ function renderButtons(buttons) {
  */
 fetch("sounds.json").then(result => result.json().then(sounds =>  {
 
+
     /**
      * Translates config versions
      */
@@ -120,6 +142,19 @@ fetch("sounds.json").then(result => result.json().then(sounds =>  {
                     "category": category
                 }
             )
+        }
+    }
+
+    const path = window.location.href.split("/").pop();
+
+    if(path != "") {
+        soundsList = soundsList.filter(sound => {
+            return sound.sound === path;
+        })
+        
+        if(soundsList.length == 0) {
+            document.getElementsByTagName("main")[0].innerHTML = "Der Sound " + path + " existiert nicht.";
+            return;
         }
     }
 

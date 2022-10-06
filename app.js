@@ -62,6 +62,7 @@ function spawnMsgBox(soundTitle, soundName) {
 
     msgBox.appendChild(audioCtrlBtn);
     msgBox.appendChild(progress);
+    msgBox.appendChild(audioShareBtn);
     document.body.appendChild(msgBox);
 
     audio.addEventListener("ended", () => { msgBox.remove();})

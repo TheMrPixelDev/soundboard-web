@@ -81,7 +81,7 @@ function shareSound(sound) {
         navigator.share({
             title: document.title,
             text: "Listen to the following sound.",
-            url: window.location.hostname + "/" + sound
+            url: "/" + sound
         })
     }else{
         navigator.clipboard.writeText(window.location.hostname + "/" + sound);

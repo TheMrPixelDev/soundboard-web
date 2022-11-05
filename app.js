@@ -76,6 +76,9 @@ function spawnMsgBox(soundTitle, soundName) {
     })
 }
 
+/**
+ * Handles sharing, when clicking the share button
+ */
 function shareSound(sound) {
     if(navigator.share){
         navigator.share({

@@ -229,6 +229,11 @@
             "sound": "dasgibtneanzeige",
             "text": "Das gibt ne Anzeige",
             "color": "green"
+        },
+        {
+            "sound": "freitagistwochenende",
+            "text": "Freitag ist WE!",
+            "color": "red"
         }
     ],
     "education": [

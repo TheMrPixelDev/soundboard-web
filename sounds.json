@@ -233,6 +233,11 @@
         {
             "sound": "freitagistwochenende",
             "text": "Freitag ist WE!",
+            "color": "green"
+        },
+        {
+            "sound": "cremebrulee",
+            "text": "Creme Brulee",
             "color": "red"
         }
     ],

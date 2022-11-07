@@ -239,6 +239,46 @@
             "sound": "cremebrulee",
             "text": "Creme Brulee",
             "color": "red"
+        },
+        {
+            "sound": "Ich_bin_eine_Biene",
+            "text": "Biene",
+            "color": "blue"
+        },
+        {
+            "sound": "Ich_bestaeube_dich",
+            "text": "Biene bestäubt",
+            "color": "blue"
+        },
+        {
+            "sound": "Du_wirst_gefickt",
+            "text": "Gefickt",
+            "color": "blue"
+        },
+        {
+            "sound": "Habicht",
+            "text": "Habicht",
+            "color": "blue"
+        },
+        {
+            "sound": "Kanaken",
+            "text": "Kanaken",
+            "color": "blue"
+        },
+        {
+            "sound": "Kuh",
+            "text": "Kuh",
+            "color": "blue"
+        },
+        {
+            "sound": "Meerschweinchen",
+            "text": "Meerschweinchen",
+            "color": "blue"
+        },
+        {
+            "sound": "Tanzi_klatscht",
+            "text": "Tanzi Klatscht",
+            "color": "blue"
         }
     ],
     "education": [
@@ -298,6 +338,108 @@
             "sound": "thefinalfrontier",
             "text": "The Final Frontier",
             "color": "green"
+        }
+    ],
+    "tagesschau":[
+        {
+            "sound": "Akkurat",
+            "text": "Akkurat",
+            "color": "blue"
+        },
+        {
+            "sound": "Bodenlos",
+            "text": "Bodenlos",
+            "color": "blue"
+        },
+        {
+            "sound": "Bre",
+            "text": "Bre",
+            "color": "blue"
+        },
+        {
+            "sound": "Cringe",
+            "text": "Cringe",
+            "color": "blue"
+        },
+        {
+            "sound": "Cringe_ARD",
+            "text": "Cringe ARD",
+            "color": "blue"
+        },
+        {
+            "sound": "Digga",
+            "text": "Digga",
+            "color": "blue"
+        },
+        {
+            "sound": "Geringverdiener",
+            "text": "Geringverdiener",
+            "color": "blue"
+        },
+        {
+            "sound": "Gommemode",
+            "text": "Gommemode",
+            "color": "blue"
+        },
+        {
+            "sound": "LoL",
+            "text": "LOL",
+            "color": "blue"
+        },
+        {
+            "sound": "Macher",
+            "text": "Macher",
+            "color": "blue"
+        },
+        {
+            "sound": "Mittwoch",
+            "text": "Mittwoch",
+            "color": "blue"
+        },
+        {
+            "sound": "Papatastisch",
+            "text": "Papatastisch",
+            "color": "blue"
+        },
+        {
+            "sound": "Same",
+            "text": "Same",
+            "color": "blue"
+        },
+        {
+            "sound": "Sheesh",
+            "text": "Sheesh",
+            "color": "blue"
+        },
+        {
+            "sound": "Siu",
+            "text": "Siu",
+            "color": "blue"
+        },
+        {
+            "sound": "Slay",
+            "text": "Slay",
+            "color": "blue"
+        },
+        {
+            "sound": "Smash",
+            "text": "Smash",
+            "color": "blue"
+        },
+        {
+            "sound": "Sus",
+            "text": "SUS",
+            "color": "blue"
+        },
+        {
+            "sound": "Wild",
+            "text": "Wild",
+            "color": "blue"
+        },
+        {
+            "sound": "Wyld",
+            "text": "Wyld",
+            "color": "blue"
         }
     ]
 }

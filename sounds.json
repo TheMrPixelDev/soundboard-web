@@ -196,6 +196,11 @@
             "color": "green"
         },
         {
+            "sound": "mahlzeit_julian",
+            "text": "Mahlzeit Harrer",
+            "color": "blue"
+        },
+        {
             "sound": "istmiregal",
             "text": "Ist mir egal",
             "color": "red"
@@ -273,6 +278,11 @@
         {
             "sound": "Meerschweinchen",
             "text": "Meerschweinchen",
+            "color": "blue"
+        },
+        {
+            "sound": "LoL",
+            "text": "LOL",
             "color": "blue"
         },
         {
@@ -379,11 +389,6 @@
         {
             "sound": "Gommemode",
             "text": "Gommemode",
-            "color": "blue"
-        },
-        {
-            "sound": "LoL",
-            "text": "LOL",
             "color": "blue"
         },
         {

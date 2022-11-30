@@ -87,7 +87,7 @@ function shareSound(sound) {
             url: "/" + sound
         })
     }else{
-        navigator.clipboard.writeText(window.location.hostname + "/" + sound);
+        navigator.clipboard.writeText(window.location.href + "sounds/" + sound + ".mp3");
         alert("Link has been copied to clipboard.")
     }
 }
@@ -191,7 +191,7 @@ document.getElementById("search").oninput = () => {
                 noSearchResult++;
                 document.getElementsByTagName("main")[0].innerHTML = `<h3 style="margin-top: 10%">Ey ich find halt nix...</h3>`;
             } else {
-                document.getElementsByTagName("main")[0].innerHTML = `<h1 style="margin-top: 10%">Digga verpiss dich einfach 😡!</h1>`;
+                document.getElementsByTagName("main")[0].innerHTML = `<h1 style="margin-top: 10%">Ey verpiss dich einfach 😡!</h1>`;
             }
         }else{
             noSearchResult = 0;

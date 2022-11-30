@@ -239,6 +239,16 @@
             "sound": "cremebrulee",
             "text": "Creme Brulee",
             "color": "red"
+        },
+        {
+            "sound": "nichtsotiefruediger",
+            "text": "Nicht so tief Rüdiger!",
+            "color": "blue"
+        },
+        {
+            "sound": "moewe",
+            "text": "JMöwe",
+            "color": "yellow"
         }
     ],
     "education": [

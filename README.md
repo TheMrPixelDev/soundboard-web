@@ -12,7 +12,7 @@ Example:
 {
     "\<category\>": [
         {
-            "sound": "\<the name of your mp3 file\>",
+            "sound": "\<the name of your mp3 file without \".mp3\"\>",
             "text": "\<a label for the soundboard button\>",
             "color": "\<a color from type red, blue, yellow, green\>"
         }

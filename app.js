@@ -84,7 +84,7 @@ function shareSound(sound) {
         navigator.share({
             title: document.title,
             text: "Listen to the following sound.",
-            url: "/" + sound
+            url: "/" + sound + ".mp3"
         })
     }else{
         navigator.clipboard.writeText(window.location.href + "sounds/" + sound + ".mp3");

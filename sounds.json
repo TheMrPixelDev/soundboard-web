@@ -158,7 +158,7 @@
         {
             "sound": "ganzehrlich",
             "text": "Ganz ehrlich!",
-            "color": "red"   
+            "color": "red"
         },
         {
             "sound": "ernaehrung",
@@ -455,6 +455,53 @@
             "sound": "Wyld",
             "text": "Wyld",
             "color": "blue"
+        }
+    ],
+    "SOOS":[
+        {
+            "sound": "ganz_besonderer_planeen",
+            "text": "Planeen",
+            "color": "red"
+        },
+        {
+            "sound": "ich_hol_mir_jeden_tag",
+            "text": "Ich hole mir jeden Tag",
+            "color": "red"
+        },
+        {
+            "sound": "kamera",
+            "text": "Kamera",
+            "color": "red"
+        },
+        {
+            "sound": "no_shit_sherlock",
+            "text": "No shit Sherlock",
+            "color": "red"
+        },
+        {
+            "sound": "stuhlschiss",
+            "text": "Stuhlschiss",
+            "color": "red"
+        },
+        {
+            "sound": "zu_risiken_0",
+            "text": "Zu Risiken.. 0",
+            "color": "red"
+        },
+        {
+            "sound": "zu_risiken_1",
+            "text": "Zu Risiken.. 1",
+            "color": "red"
+        },
+        {
+            "sound": "zu_risiken_2",
+            "text": "Zu Risiken.. 2",
+            "color": "red"
+        },
+        {
+            "sound": "zu_risiken_3",
+            "text": "Zu Risiken.. 3",
+            "color": "red"
         }
     ]
 }

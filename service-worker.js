@@ -30,7 +30,7 @@ self.addEventListener("fetch", (event) => {
             } catch (error) {
             }
             return fetch(event.request).then(function (response) {
-                if (!response || response.status !== 200 || response.type !== 'basic')
+                if (!response || response.status !== 200 || response.type !== 'basic' || !response.url.match("^(http|https)://"))
                     return response;
                 let responseToCache = response.clone();
                 caches.open(urlsToCache.includes(event.request.url.replaceAll(/.*:\/\/?([^\/]+)/g, "")) ? "soundboard-static-v1" : "other")
@@ -39,6 +39,7 @@ self.addEventListener("fetch", (event) => {
                     });
                 return response;
             }).catch(function () {
+                console.log("no wifi");
                 return caches.match(event.request);
             });
         })()

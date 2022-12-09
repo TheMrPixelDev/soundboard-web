@@ -503,5 +503,27 @@
             "text": "Zu Risiken.. 3",
             "color": "red"
         }
+    ],
+    "Songs": [
+        {
+            "sound": "partyhard",
+            "text": "Ich dance mit de Gänse!",
+            "color": "blue"
+        },
+        {
+            "sound": "folgtmirinspartyland",
+            "text": "Das Partyland",
+            "color": "yellow"
+        },
+        {
+            "sound": "dipdadee",
+            "text": "Dip Da Dee Dee Da",
+            "color": "red"
+        },
+        {
+            "sound": "jesusehoh",
+            "text": "Jesus Eh Oh Eh Oh",
+            "color": "green"
+        }
     ]
 }

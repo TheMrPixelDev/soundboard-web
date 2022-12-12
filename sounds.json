@@ -299,6 +299,11 @@
             "sound": "moewe",
             "text": "JMöwe",
             "color": "yellow"
+        },
+        {
+            "sound": "kranplaetze",
+            "text": "Kranplätze!",
+            "color": "red"
         }
     ],
     "education": [

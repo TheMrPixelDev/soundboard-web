@@ -12,7 +12,6 @@ export function saveSettings(settings) {
 export function openSettingsMenu() {
     document.getElementById("settings-background").style.display = "block";
     const settings = loadSettings();
-    console.log(settings)
     document.getElementById("vibration-input").checked = settings.vibrate;
     document.getElementById("darkmode-input").checked = settings.darkmode;
     document.getElementById("save-settings").onclick = closeSettingsMenu;

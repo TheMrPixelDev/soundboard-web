@@ -1,8 +1,11 @@
+import { loadSettings, openSettingsMenu } from "./modules/settings.js";
+
 /**
  * Editor: TheMrPixelDev - Julian Harrer
  * Base forked from: FDHoho007
  * https://github.com/TheMrPixelDev/soundboard-web
  */
+
 
 var audio = new Audio();
 var soundsList = [];
@@ -13,7 +16,9 @@ async function playSound(sound, title) {
     audio = new Audio("sounds/" + sound + ".mp3")
     spawnMsgBox(title, sound);
     audio.play(); 
-    window.navigator.vibrate([300]);
+    if (loadSettings.vibrate) {
+        window.navigator.vibrate([300]);
+    }
 }
 
 /**
@@ -242,6 +247,8 @@ document.getElementById("cancel").onclick = () => {
     renderButtons(soundsList);
 }
 
+document.getElementById("settings-btn").onclick = openSettingsMenu;
+
 
 /**
  * Register the services worker for PWA
@@ -254,4 +261,4 @@ if ('serviceWorker' in navigator) {
     .catch(function(error) {
       console.log('Service worker registration failed, error:', error);
     });
-  }
+}

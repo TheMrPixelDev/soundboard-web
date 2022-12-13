@@ -214,8 +214,10 @@ if("ondevicemotion" in window) {
     var shakeEvent = new Shake({threshold: 15, timeout: 1000});
     shakeEvent.start();
     window.addEventListener("shake", () => {
-        const index = Math.floor(Math.random() * soundsList.length);
-        playSound(soundsList[index].sound, soundsList[index].text)
+        if(localStorage.getItem(shake)) {
+            const index = Math.floor(Math.random() * soundsList.length);
+            playSound(soundsList[index].sound, soundsList[index].text);
+        }
     }, false);
 }else{
     console.log("Device motion detection not available!")

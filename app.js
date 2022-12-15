@@ -127,6 +127,12 @@ function renderButtons(buttons) {
         button.innerText = b.text;
         button.classList = b.color;
         button.onclick = () => playSound(b.sound, b.text);
+        button.addEventListener("contextmenu", (e) => {
+            e.preventDefault()
+            //navigator.clipboard.writeText(window.location.href + "sounds/" + b.sound + ".mp3");
+            //alert("Sound \"" + b.text + "\" has been copied to clipboard.")
+            shareSound(b.sound);
+        })
         currentBtnContainer.appendChild(button);
     }
 }

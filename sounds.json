@@ -507,6 +507,16 @@
             "sound": "zu_risiken_3",
             "text": "Zu Risiken.. 3",
             "color": "red"
+        },
+        {
+            "sound": "heute_fick_ich_euch",
+            "text": "Heute fick ich euch",
+            "color": "red"
+        },
+        {
+            "sound": "baumficker",
+            "text": "Baumficker",
+            "color": "red"
         }
     ],
     "Songs": [

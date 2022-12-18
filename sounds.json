@@ -1,1 +1,534 @@
-[]
+{
+    "fun": [
+        {
+            "sound": "bittenicht",
+            "text": "Bitte nicht...",
+            "color": "green"
+        },
+        {
+            "sound": "jeopardy",
+            "text": "Waiting...",
+            "color": "green"
+        },
+        {
+            "sound": "kleinespende",
+            "text": "Spende",
+            "color": "blue"
+        },
+        {
+            "sound": "colareingepfiffen",
+            "text": "DIE COLA",
+            "color": "red"
+        },
+        {
+            "sound": "kokain",
+            "text": "Überall Kokain",
+            "color": "yellow"
+        },
+        {
+            "sound": "egal",
+            "text": "Egal...!",
+            "color": "blue"
+        },
+        {
+            "sound": "binichdrin",
+            "text": "Bin ich drin?",
+            "color": "red"
+        },
+        {
+            "sound": "alarm",
+            "text": "Alarm!",
+            "color": "red"
+        },
+        {
+            "sound": "gottbewahreeuropa",
+            "text": "Gott bewahre Europa",
+            "color": "blue"
+        },
+        {
+            "sound": "1und1",
+            "text": "1&1",
+            "color": "yellow"
+        },
+        {
+            "sound": "fairundtransparent",
+            "text": "fair und transparent",
+            "color": "blue"
+        },
+        {
+            "sound": "wennderanschlusslaeuft",
+            "text": "...wenn der Anschluss läuft...",
+            "color": "red"
+        },
+        {
+            "sound": "marceldavis1und1",
+            "text": "Marcel Davis 1&1",
+            "color": "green"
+        },
+        {
+            "sound": "marceldavis",
+            "text": "Ich bin Marcel Davis",
+            "color": "yellow"
+        },
+        {
+            "sound": "spacetaxitothesky",
+            "text": "Space Taxi To The Sky",
+            "color": "red"
+        },
+        {
+            "sound": "ichkannnichtlesen",
+            "text": "Ich kann nicht lesen",
+            "color": "blue"
+        },
+        {
+            "sound": "beepimasheep",
+            "text": "Beep Beep I'm A Sheep",
+            "color": "blue"
+        },
+        {
+            "sound": "wasistdennmitkarstenlos",
+            "text": "Was ist denn mit Karsten los?",
+            "color": "red"
+        },
+        {
+            "sound": "perversgeil",
+            "text": "Pervers geil!",
+            "color": "blue"
+        },
+        {
+            "sound": "paulgehweg",
+            "text": "Geh weg!",
+            "color": "green"
+        },
+        {
+            "sound": "nichtmehranrufen",
+            "text": "Hört mal auf mich anzurufen!",
+            "color": "yellow"
+        },
+        {
+            "sound": "isnetmehrnormal",
+            "text": "Is net mehr normal!",
+            "color": "red"
+        },
+        {
+            "sound": "ahmehrere",
+            "text": "Da sind ja mehrere!",
+            "color": "green"
+        },
+        {
+            "sound": "socremig",
+            "text": "XX so cremig!",
+            "color": "blue"
+        },
+        {
+            "sound": "ohh",
+            "text": "Ohh...",
+            "color": "yellow"
+        },
+        {
+            "sound": "prost",
+            "text": "Prost!",
+            "color": "red"
+        },
+        {
+            "sound": "goennungbeihitze",
+            "text": "Gönnung!",
+            "color": "blue"
+        },
+        {
+            "sound": "ichschwitze",
+            "text": "Ich schwitze...",
+            "color": "green"
+        },
+        {
+            "sound": "weildasjaklarist",
+            "text": "Weil das ja klar ist...",
+            "color": "yellow"
+        },
+        {
+            "sound": "10minuten",
+            "text": "10 Minuten!",
+            "color": "blue"
+        },
+        {
+            "sound": "emotionaldamage",
+            "text": "Emotional Damage",
+            "color": "green"
+        },
+        {
+            "sound": "ganzehrlich",
+            "text": "Ganz ehrlich!",
+            "color": "red"
+        },
+        {
+            "sound": "ernaehrung",
+            "text": "Ich achte auf meine Ernährung",
+            "color": "yellow"
+        },
+        {
+            "sound": "backkammembert",
+            "text": "Der Backkammembert",
+            "color": "blue"
+        },
+        {
+            "sound": "werruftdaan",
+            "text": "Wer ruf da an?",
+            "color": "green"
+        },
+        {
+            "sound": "ho",
+            "text": "Ho!",
+            "color": "red"
+        },
+        {
+            "sound": "fettarme",
+            "text": "Fettarme",
+            "color": "yellow"
+        },
+        {
+            "sound": "gorgonnzola",
+            "text": "Der Gorgonnzola",
+            "color": "blue"
+        },
+        {
+            "sound": "mahlzeit",
+            "text": "Mahlzeit!",
+            "color": "green"
+        },
+        {
+            "sound": "mahlzeit_julian",
+            "text": "Mahlzeit Harrer",
+            "color": "blue"
+        },
+        {
+            "sound": "istmiregal",
+            "text": "Ist mir egal",
+            "color": "red"
+        },
+        {
+            "sound": "directedbyrobert",
+            "text": "Directed By Robert",
+            "color": "yellow"
+        },
+        {
+            "sound": "uwe",
+            "text": "Uwe Autotune",
+            "color": "green"
+        },
+        {
+            "sound": "wochenendesaufengeil",
+            "text": "Wochenende, Saufen, GeIl",
+            "color": "red"
+        },
+        {
+            "sound": "michirettetbier",
+            "text": "Michi rettet Bier",
+            "color": "blue"
+        },
+        {
+            "sound": "einenreintrinken",
+            "text": "Richtig einen reintrinken",
+            "color": "yellow"
+        },
+        {
+            "sound": "dasgibtneanzeige",
+            "text": "Das gibt ne Anzeige",
+            "color": "green"
+        },
+        {
+            "sound": "freitagistwochenende",
+            "text": "Freitag ist WE!",
+            "color": "green"
+        },
+        {
+            "sound": "cremebrulee",
+            "text": "Creme Brulee",
+            "color": "red"
+        },
+        {
+            "sound": "Ich_bin_eine_Biene",
+            "text": "Biene",
+            "color": "blue"
+        },
+        {
+            "sound": "Ich_bestaeube_dich",
+            "text": "Biene bestäubt",
+            "color": "blue"
+        },
+        {
+            "sound": "Du_wirst_gefickt",
+            "text": "Gefickt",
+            "color": "blue"
+        },
+        {
+            "sound": "Habicht",
+            "text": "Habicht",
+            "color": "blue"
+        },
+        {
+            "sound": "Kanaken",
+            "text": "Kanaken",
+            "color": "blue"
+        },
+        {
+            "sound": "Kuh",
+            "text": "Kuh",
+            "color": "blue"
+        },
+        {
+            "sound": "Meerschweinchen",
+            "text": "Meerschweinchen",
+            "color": "blue"
+        },
+        {
+            "sound": "LoL",
+            "text": "LOL",
+            "color": "blue"
+        },
+        {
+            "sound": "Tanzi_klatscht",
+            "text": "Tanzi Klatscht",
+            "color": "blue"
+        },
+        {
+            "sound": "nichtsotiefruediger",
+            "text": "Nicht so tief Rüdiger!",
+            "color": "blue"
+        },
+        {
+            "sound": "moewe",
+            "text": "JMöwe",
+            "color": "yellow"
+        },
+        {
+            "sound": "kranplaetze",
+            "text": "Kranplätze!",
+            "color": "red"
+        }
+    ],
+    "education": [
+        {
+            "sound": "nichtbestanden",
+            "text": "Nicht bestanden!",
+            "color": "red"
+        },
+        {
+            "sound": "sandmann",
+            "text": "Sandmann",
+            "color": "yellow"
+        },
+        {
+            "sound": "gottbewahreeuropa",
+            "text": "Gott bewahre Europa",
+            "color": "blue"
+        },
+        {
+            "sound": "2x2eigenwertjingle",
+            "text": "2x2 Eigenwerte",
+            "color": "green"
+        }
+    ],
+    "star trek":[
+        {
+            "sound": "spacetaxitothesky",
+            "text": "Space Taxi To The Sky",
+            "color": "yellow"
+        },
+        {
+            "sound": "eliminatetheimpossible",
+            "text": "Eliminate the impossible...",
+            "color": "blue"
+        },
+        {
+            "sound": "maintitlefluet",
+            "text": "Main Title Orchestra",
+            "color": "green"
+        },
+        {
+            "sound": "maintitletheme",
+            "text": "Main Title Theme",
+            "color": "red"
+        },
+        {
+            "sound": "hyperspace",
+            "text": "Hyperspace",
+            "color": "blue"
+        },
+        {
+            "sound": "warp_new",
+            "text": "New Warp",
+            "color": "yellow"
+        },
+        {
+            "sound": "thefinalfrontier",
+            "text": "The Final Frontier",
+            "color": "green"
+        }
+    ],
+    "tagesschau":[
+        {
+            "sound": "Akkurat",
+            "text": "Akkurat",
+            "color": "blue"
+        },
+        {
+            "sound": "Bodenlos",
+            "text": "Bodenlos",
+            "color": "blue"
+        },
+        {
+            "sound": "Bre",
+            "text": "Bre",
+            "color": "blue"
+        },
+        {
+            "sound": "Cringe",
+            "text": "Cringe",
+            "color": "blue"
+        },
+        {
+            "sound": "Cringe_ARD",
+            "text": "Cringe ARD",
+            "color": "blue"
+        },
+        {
+            "sound": "Digga",
+            "text": "Digga",
+            "color": "blue"
+        },
+        {
+            "sound": "Geringverdiener",
+            "text": "Geringverdiener",
+            "color": "blue"
+        },
+        {
+            "sound": "Gommemode",
+            "text": "Gommemode",
+            "color": "blue"
+        },
+        {
+            "sound": "Macher",
+            "text": "Macher",
+            "color": "blue"
+        },
+        {
+            "sound": "Mittwoch",
+            "text": "Mittwoch",
+            "color": "blue"
+        },
+        {
+            "sound": "Papatastisch",
+            "text": "Papatastisch",
+            "color": "blue"
+        },
+        {
+            "sound": "Same",
+            "text": "Same",
+            "color": "blue"
+        },
+        {
+            "sound": "Sheesh",
+            "text": "Sheesh",
+            "color": "blue"
+        },
+        {
+            "sound": "Siu",
+            "text": "Siu",
+            "color": "blue"
+        },
+        {
+            "sound": "Slay",
+            "text": "Slay",
+            "color": "blue"
+        },
+        {
+            "sound": "Smash",
+            "text": "Smash",
+            "color": "blue"
+        },
+        {
+            "sound": "Sus",
+            "text": "SUS",
+            "color": "blue"
+        },
+        {
+            "sound": "Wild",
+            "text": "Wild",
+            "color": "blue"
+        },
+        {
+            "sound": "Wyld",
+            "text": "Wyld",
+            "color": "blue"
+        }
+    ],
+    "SOOS":[
+        {
+            "sound": "ganz_besonderer_planeen",
+            "text": "Planeen",
+            "color": "red"
+        },
+        {
+            "sound": "ich_hol_mir_jeden_tag",
+            "text": "Ich hole mir jeden Tag",
+            "color": "red"
+        },
+        {
+            "sound": "kamera",
+            "text": "Kamera",
+            "color": "red"
+        },
+        {
+            "sound": "no_shit_sherlock",
+            "text": "No shit Sherlock",
+            "color": "red"
+        },
+        {
+            "sound": "stuhlschiss",
+            "text": "Stuhlschiss",
+            "color": "red"
+        },
+        {
+            "sound": "zu_risiken_0",
+            "text": "Zu Risiken.. 0",
+            "color": "red"
+        },
+        {
+            "sound": "zu_risiken_1",
+            "text": "Zu Risiken.. 1",
+            "color": "red"
+        },
+        {
+            "sound": "zu_risiken_2",
+            "text": "Zu Risiken.. 2",
+            "color": "red"
+        },
+        {
+            "sound": "zu_risiken_3",
+            "text": "Zu Risiken.. 3",
+            "color": "red"
+        }
+    ],
+    "Songs": [
+        {
+            "sound": "partyhard",
+            "text": "Ich dance mit de Gänse!",
+            "color": "blue"
+        },
+        {
+            "sound": "folgtmirinspartyland",
+            "text": "Das Partyland",
+            "color": "yellow"
+        },
+        {
+            "sound": "dipdadee",
+            "text": "Dip Da Dee Dee Da",
+            "color": "red"
+        },
+        {
+            "sound": "jesusehoh",
+            "text": "Jesus Eh Oh Eh Oh",
+            "color": "green"
+        }
+    ]
+}

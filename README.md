@@ -1,5 +1,9 @@
 # Soundboard
 
+Hi Dad, das ist ein Hai aus meinem Tennisteam.
+
+Halts Maul!
+
 ## How it looks
 
 ![Screenshot](/screenshot_2022-09-16_13-59-07.png)

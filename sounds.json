@@ -304,6 +304,16 @@
             "sound": "kranplaetze",
             "text": "Kranplätze!",
             "color": "red"
+        },
+        {
+            "sound": "guterutsch",
+            "text": "Gute Ruuutsch!",
+            "color": "yellow"
+        },
+        {
+            "sound": "bistdugutgerutscht",
+            "text": "Bist du gut geruuutscht?",
+            "color": "green"
         }
     ],
     "education": [

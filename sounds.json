@@ -549,11 +549,6 @@
             "color": "green"
         },
         {
-            "sound": "holz",
-            "text": "Holz!",
-            "color": "green"
-        },
-        {
             "sound": "keller",
             "text": "Im Keller..",
             "color": "green"

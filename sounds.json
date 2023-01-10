@@ -527,6 +527,76 @@
             "sound": "baumficker",
             "text": "Baumficker",
             "color": "red"
+        },
+        {
+            "sound": "aliexpress",
+            "text": "Aliexpress schei*e",
+            "color": "green"
+        },
+        {
+            "sound": "federball",
+            "text": "Federball",
+            "color": "green"
+        },
+        {
+            "sound": "grillen",
+            "text": "Grillen",
+            "color": "green"
+        },
+        {
+            "sound": "holz",
+            "text": "Holz!",
+            "color": "green"
+        },
+        {
+            "sound": "holz",
+            "text": "Holz!",
+            "color": "green"
+        },
+        {
+            "sound": "keller",
+            "text": "Im Keller..",
+            "color": "green"
+        },
+        {
+            "sound": "mund_auf",
+            "text": "Mund auf.",
+            "color": "green"
+        },
+        {
+            "sound": "mund_auf_rape",
+            "text": "MUND AUF!!",
+            "color": "red"
+        },
+        {
+            "sound": "pferde",
+            "text": "Pferde",
+            "color": "green"
+        },
+        {
+            "sound": "schokolade",
+            "text": "Schoki",
+            "color": "green"
+        },
+        {
+            "sound": "schreibtisch",
+            "text": "Schreibtisch",
+            "color": "green"
+        },
+        {
+            "sound": "stroh",
+            "text": "Stroh",
+            "color": "green"
+        },
+        {
+            "sound": "terrare",
+            "text": "5m² Terrare",
+            "color": "green"
+        },
+        {
+            "sound": "under_the_water",
+            "text": "Underwater",
+            "color": "green"
         }
     ],
     "Songs": [
@@ -548,6 +618,16 @@
         {
             "sound": "jesusehoh",
             "text": "Jesus Eh Oh Eh Oh",
+            "color": "green"
+        },
+        {
+            "sound": "buch",
+            "text": "Das Buch",
+            "color": "green"
+        },
+        {
+            "sound": "emergency_number",
+            "text": "0118 999 881 999 119 7253",
             "color": "green"
         }
     ]

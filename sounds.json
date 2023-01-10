@@ -314,6 +314,16 @@
             "sound": "bistdugutgerutscht",
             "text": "Bist du gut geruuutscht?",
             "color": "green"
+        },
+        {
+            "sound": "stroh",
+            "text": "Stroh",
+            "color": "green"
+        },
+        {
+            "sound": "schreibtisch",
+            "text": "Schreibtisch",
+            "color": "green"
         }
     ],
     "education": [
@@ -571,16 +581,6 @@
         {
             "sound": "schokolade",
             "text": "Schoki",
-            "color": "green"
-        },
-        {
-            "sound": "schreibtisch",
-            "text": "Schreibtisch",
-            "color": "green"
-        },
-        {
-            "sound": "stroh",
-            "text": "Stroh",
             "color": "green"
         },
         {

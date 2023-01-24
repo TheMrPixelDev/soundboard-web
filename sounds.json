@@ -324,6 +324,22 @@
             "sound": "schreibtisch",
             "text": "Schreibtisch",
             "color": "green"
+        },
+        {
+            "sound": "jungejunge",
+            "text": "Junge Junge Junge ...",
+            "color": "yellow"
+        },
+        {
+            "sound": "jetztwerdichaberwild",
+            "text": "Jetzt werd ich aber wild...",
+            "color": "red"
+        }
+        ,
+        {
+            "sound": "leutekeinearbeit",
+            "text": "Leute kommen Arbeit nicht nach!",
+            "color": "blue"
         }
     ],
     "education": [

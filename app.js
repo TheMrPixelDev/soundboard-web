@@ -7,9 +7,12 @@ import { loadSettings, openSettingsMenu } from "./modules/settings.js";
  */
 
 
+window.onload = adjustTheme;
+
 var audio = new Audio();
 var soundsList = [];
 var audioPlaying = false;
+const defaultAudioGain = 1.0;
 
 async function playSound(sound, title) {
     await audio.pause();
@@ -18,6 +21,18 @@ async function playSound(sound, title) {
     audio.play(); 
     if (loadSettings().vibrate) {
         window.navigator.vibrate([300]);
+    }
+}
+
+/**
+ * Gets theme setting from localStorage and sets the according css class
+ */
+function adjustTheme() {
+    const darkmode = loadSettings().darkmode
+    if (darkmode) {
+        document.querySelector("body").classList.remove("light");
+    } else {
+        document.querySelector("body").classList.add("light");
     }
 }
 
@@ -256,6 +271,13 @@ document.getElementById("cancel").onclick = () => {
 }
 
 document.getElementById("settings-btn").onclick = openSettingsMenu;
+document.getElementById("darkmode-input").addEventListener("click", (e) => {
+    if (e.target.checked) {
+        document.querySelector("body").classList.remove("light");
+    } else {
+        document.querySelector("body").classList.add("light");
+    }
+})
 
 
 /**

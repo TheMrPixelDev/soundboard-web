@@ -5,6 +5,11 @@ body {
     text-align: center;
 }
 
+.light {
+    background-color: white;
+    color: #101010;
+}
+
 h1 {
     margin-top: 4rem;
 }
@@ -191,6 +196,11 @@ main button:active {
     font-weight: bolder;
 }
 
+.light .search-input, .light .search-btn, .light .search-box {
+    background-color: rgb(200, 200, 200);
+    color: black;
+}
+
 #settings-menu {
     border-radius: 1rem;
     background-color: white;
@@ -238,4 +248,8 @@ main button:active {
 #settings-btn i {
     filter: invert(1);
     font-size: x-large;
+}
+
+.light #settings-btn i {
+    filter: invert(0);
 }

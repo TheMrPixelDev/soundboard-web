@@ -84,6 +84,14 @@ main button:active {
     box-shadow: inset 5px 5px 5px 0 #202225;
 }
 
+.lightgreen {
+    background-color: rgba(30, 255, 127);
+}
+
+.pink {
+    background-color: rgb(255, 38, 236);
+}
+
 .red {
     background-color: rgb(235, 82, 82);
 }

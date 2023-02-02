@@ -24,6 +24,16 @@ async function playSound(sound, title) {
     }
 }
 
+
+/**
+ * Function which generates a random color of GREEN, YELLOW, RED, BLUE
+ */
+function getRandomColor() {
+    const colors = ["red", "green", "yellow", "blue", "lightgreen", "pink"];
+    const rndIndex = Math.floor(Math.random() * colors.length);
+    return colors[rndIndex];
+}
+
 /**
  * Gets theme setting from localStorage and sets the according css class
  */
@@ -168,7 +178,8 @@ fetch("sounds.json").then(result => result.json().then(sounds =>  {
                 {
                     "text": sound.text,
                     "sound": sound.sound,
-                    "color": sound.color,
+                    //"color": sound.color,
+                    "color": getRandomColor(),
                     "category": category
                 }
             )

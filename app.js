@@ -174,12 +174,14 @@ fetch("sounds.json").then(result => result.json().then(sounds =>  {
 
     for(let category in sounds) {
         for(let sound of sounds[category]) {
+
+            const color = loadSettings().random_colors ? getRandomColor() : sound.color;
+
             soundsList.push(
                 {
                     "text": sound.text,
                     "sound": sound.sound,
-                    //"color": sound.color,
-                    "color": getRandomColor(),
+                    "color": color,
                     "category": category
                 }
             )

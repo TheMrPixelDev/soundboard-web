@@ -7,6 +7,12 @@ import { loadSettings, openSettingsMenu } from "./modules/settings.js";
  */
 
 
+/**
+ * TTS realted variables.
+ */
+const TTS_BACKEND_URL = "https://mimic.pxldeveloper.eu"
+var selectedVoiceTTS = "";
+
 window.onload = adjustTheme;
 
 var audio = new Audio();
@@ -292,6 +298,41 @@ document.getElementById("darkmode-input").addEventListener("click", (e) => {
     }
 })
 
+/**
+ * Send request to tts backend for new tts audio file.
+ */
+document.getElementById("tts-form").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const text = e.target.elements["tts-text"].value;
+    if (text != "") {
+        audio.pause();
+        alert("Sound is being processed...");
+        audio = new Audio(`${TTS_BACKEND_URL}/api/tts?text=${text}&voice=${selectedVoiceTTS}&ssml=false&audioTarget=client&noiseScale=0.667&noiseW=0.8&lengthScale=1`);
+        audio.play();
+    } else {
+        alert("Please enter a valid text.")
+    }
+})
+
+/**
+ * Get selectable voices for text to speech from text to speech backend.
+ */
+const select = document.getElementById("tts-voices");
+fetch(TTS_BACKEND_URL + "/api/voices").then(res => res.json()).then(voices => {
+    voices.forEach(voice => {
+        const option = document.createElement("option");
+        option.value = voice.key;
+        option.innerText = voice.key;
+        select.appendChild(option);
+    })
+});
+
+/**
+ * Update selected voice for tts.
+ */
+select.addEventListener("change", e => {
+    selectedVoiceTTS = e.target.value;
+})
 
 /**
  * Register the services worker for PWA

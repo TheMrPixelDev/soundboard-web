@@ -641,5 +641,32 @@
             "text": "0118 999 881 999 119 7253",
             "color": "green"
         }
+    ],
+    "Jeremy Fragrance": [
+        {
+            "sound": "jeremy1000euro",
+            "text": "1000€ im Monat",
+            "color": "red"
+        },
+        {
+            "sound": "mitderanderenhand",
+            "text": "Mit der flaschen Hand die Zähne putzen",
+            "color": "yellow"
+        },
+        {
+            "sound": "jeremiesdatteln",
+            "text": "Diese Dattelsorte gibt mir mehr Satierty",
+            "color": "blue"
+        },
+        {
+            "sound": "manistdummimkopf",
+            "text": "Man ist dumm im Kopf",
+            "color": "red"
+        },
+        {
+            "sound": "3kilozwiebeln",
+            "text": "Ich verabschiede mich von Lebensmitteln",
+            "color": "blue"
+        }
     ]
 }
